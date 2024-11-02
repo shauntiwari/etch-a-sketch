@@ -4,13 +4,22 @@
 }
 
 body {
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #container {
     border: 1px solid;
-    height: 900px;
-    width: 900px;
+    height: 960px;
+    width: 960px;
+}
+
+.size-button {
+    width: 150px;
+    margin: 8px;
+    padding: 2px;
+    font-size: large;
 }
 
 .row {
@@ -20,6 +29,6 @@ body {
 .box {
     box-sizing: border-box;
     border: 1px solid;
-    width: calc(900px / var(--grid-size));
-    height: calc(900px / var(--grid-size));
+    width: calc(960px / var(--grid-size));
+    height: calc(960px / var(--grid-size));
 }
