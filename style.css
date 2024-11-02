@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 20px;
+}
+
+#container {
+    border: 1px solid;
+    height: 900px;
+    width: 900px;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 1px solid;
+    width: calc(900px / var(--grid-size));
+    height: calc(900px / var(--grid-size));
+}
